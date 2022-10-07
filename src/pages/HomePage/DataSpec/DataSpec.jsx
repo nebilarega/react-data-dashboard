@@ -126,7 +126,7 @@ const DataSpec = () => {
         >
           <TreeItem
             nodeId="2"
-            label={folderTypography("dataform_demo", "Icon")}
+            label={folderTypography("dataform_demo", null)}
             className={classes.treeItem}
           >
             <TreeItem
@@ -163,7 +163,7 @@ const DataSpec = () => {
           </TreeItem>
           <TreeItem
             nodeId="2"
-            label={folderTypography("dataform_set_2", "Icon")}
+            label={folderTypography("dataform_set_2", null)}
             className={classes.treeItem}
           ></TreeItem>
         </TreeView>

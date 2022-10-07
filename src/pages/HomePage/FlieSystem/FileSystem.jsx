@@ -19,7 +19,7 @@ const useStyles = makeStyles({
     width: fileSystemWidth,
     height: "100vh",
     backgroundColor: colors_m.darkBluelv_0,
-    // display: "flex",
+    display: "flex",
     flexDirection: "column",
     alignItems: "flex-start",
     paddingTop: "1rem",

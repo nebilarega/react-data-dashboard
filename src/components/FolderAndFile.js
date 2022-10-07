@@ -1,5 +1,4 @@
 import colors_m from "../assets/colors";
-import FolderIcon from "@material-ui/icons/Folder";
 
 export const colors_of_filetypes = {
   JS: colors_m.JS,
@@ -18,7 +17,7 @@ export const folderTypography = (text, IconM) => {
         gap: ".8rem",
       }}
     >
-      <IconM style={{ color: colors_m.darkBluelv_1 }} />
+      {IconM ? <IconM style={{ color: colors_m.darkBluelv_1 }} /> : null}
       <div style={{ color: colors_m.darkBluelv_1 }}>{text}</div>
     </div>
   );
